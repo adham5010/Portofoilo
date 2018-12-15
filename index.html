@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ahmed Diab">
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:700px)" href="./css/meduim-port.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:900px)" href="./css/large-port.css" />
+    <script src="./js/main.js"></script>
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="logo-holder">
+            <picture>
+                <source media="(max-width: 600px)" srcset="./images/udacity-logo-meduim.png">
+                <source media="(max-width: 750px)" srcset="./images/udacity-logo-large.png">
+                <source media="(min-width: 751px)" srcset="./images/udacity-logo.png">
+                <img class="udacity-logo" src="./images/udacity-logo.png" alt="Udacity-Logo" title="Udacity-Logo">
+            </picture>
+        </div>
+        <div class="name-holder">
+            <h3 id="header">Ahmed Ramadan Diab</h3>
+            <p class="subtitle">Rokie Front-End Engineer</p>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <button class="menu-toggle" id="menu-toggler">Menu</button>
+        <ul class="hidden-menu">
+            <li><a>About Me</a></li>
+            <li><a>Technical Interests & Focus</a></li>
+            <li><a>Non-Technical Interests</a></li>
+            <li><a>Non-Technical Interests</a></li>
+            <li><a href="#  my-tools">My Tools & Workflow</a></li>
+        </ul>
+    </nav>
+    <main class="main-header">
+        <article>
+            <figure class="main-header">
+                <img class="main-image" src="./images/fruits.jpg" alt="fruits" title="images">
+                <figcaption class="topic">Fruits </figcaption>
+            </figure>
+            <div class="article-container">
+                <h3 class="topic-header">
+                    About Me
+                </h3>
+                <p class="topic">
+                    I'm a front-end developer who is passionate about Javascript, building great user experiences,
+                    fighting for simplicity over complexity, constantly learning and someone who strives to mentor
+                    and share with other developers around me (so, hopefully, they'll mentor and share with me).
+                    I've worked for both large and small companies. Both on-site and remote.
+                    And for the last handful of jobs have been a primary Team or Technical Lead.
+                </p>
+            </div>
+            <div class="article-container">
+                <h3 class="topic-header">
+                    Technical Interests & Focus
+                </h3>
+                <p class="topic">
+                    My interests primarily lie in design and implementation of native web apps, whether desktop or
+                    mobile, single-page applications or otherwise. Although I primarily focus on Javascript (ES5/6,
+                    node & browser), HTML/5 and CSS; I have plenty of experience writing PHP, Perl and other languages.
+                    <br>
+                    I've developed with a number of frameworks, such as AngularJS, FlightJS, ExtJS, JQuery along with
+                    some ReactJS and its virtual-dom relatives. I enjoy learning new frameworks, libraries and
+                    programming philosophies. I strive for simplicity, favor composition, strongly work towards a
+                    reactive and functional style of development versus object-oriented and imperative
+                </p>
+            </div>
+            <div class="article-container">
+                <h3 class="topic-header">
+                    Non-Technical Interests
+                </h3>
+
+                <p class="topic">
+                    Outside of learning about the web, I have a number of other interests as well (are you surprised?).
+                    I dabble in playing guitar, chess and legos. I also occasionally fall back to my original love
+                    focus in college which is art, drawing and painting (even digital painting in Photoshop). I also
+                    enjoy hanging out with my best friend and wife, talking, watching our fav tv-shows and just
+                    connecting.
+                    <br>
+                    BPSA
+                    I am also the Chief Commissioner and Board President for the Baden Powell Service Association, an
+                    inclusive, traditional scouting organization for youth and adults. I've been involved and on the
+                    board since 2008.
+                    <br>
+                    American Sign Language
+                    I have five, wonderful children, two of which are special needs. My youngest is partially deaf and
+                    so we both speak and use American Sign Language with her. I've enjoyed learning sign so much, I
+                    helped start and co-run an ASL meetup in my area and am constantly learning and finding ways to
+                    interact and work with the Deaf community.
+                </p>
+            </div>
+            <div class="article-container" id="my-tools">
+                <h3 class="topic-header">
+                    My Tools & Workflow
+                </h3>
+                <p class="topic">
+                    Don't ask me about Sublime or Atom. My IDE is vim. I've got a number of standard things setup,
+                    which you can check out on my github page if you're interested. Outside of vim, my standard
+                    workflow tools consist of git, Grunt/Gulp, npm, Browserify and Jasmine. Travis CI and SauceLabs are
+                    amazingly helpful tools as well.
+                    <br>
+                    I use a Mac Book Pro and spend a lot of time in the Chrome dev tools debugger. I'm constantly
+                    reading and learning web technologies and approaches; but the best way to learn is by doing and
+                    repeating and then teaching - which is partly why I started this blog.
+                </p>
+            </div>
+            <div class="features-container-wrapper">
+                <h3 class="topic-header">
+                    Featured Work
+                </h3>
+                <div class="features-container">
+                    <div class="feature-container">
+                        <figure>
+                            <img class="feature-image" src="./images/glassBall.jpg" alt="GlassBall">
+                            <figcaption>
+                                <p>Feel Free to visit this on <a href="https://github.com/adham5010/my-travel-plans">GitHub</a></p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="feature-container">
+                        <figure>
+                            <img class="feature-image" src="./images/glassBall.jpg" alt="GlassBall">
+                            <figcaption>
+                                <p>Feel Free to visit this on <a href="https://github.com/adham5010/my-travel-plans">GitHub</a></p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="feature-container">
+                        <figure>
+                            <img class="feature-image" src="./images/glassBall.jpg" alt="GlassBall">
+                            <figcaption>
+                                <p>Feel Free to visit this on <a href="https://github.com/adham5010/my-travel-plans">GitHub</a></p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer class="footer">
+        <p class="footer-content">©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+    <script>
+
+    </script>
+</body>
+
+</html>

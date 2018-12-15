@@ -1,0 +1,116 @@
+* {
+    color: #2d3c49;
+    font-family: monospace, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo-holder {
+    width: 20%;
+    margin-bottom: 15px;
+}
+
+.udacity-logo {
+    width: 70%;
+}
+
+header {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #7d97ad;
+    margin-bottom: 25px;
+}
+
+.name-holder {
+    width: 70%;
+    text-align: right;
+    text-transform: uppercase;
+    margin: auto 0px;
+}
+
+.subtitle {
+    font-size: 3vw;
+}
+
+#header {
+    margin: unset;
+    font-size: 5vw;
+}
+
+article,
+header {
+    width: 100%;
+}
+
+.main-header {
+    width: 100%;
+    margin: 0px;
+}
+
+.topic-header {
+    color: #7d97ad;
+    font-size: 4vw;
+}
+
+.topic {
+    margin: 0 4%;
+    font-size: 3vw;
+}
+
+.article-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.features-container{
+    margin: 0 4%;
+    font-size: 3vw;
+}
+.feature-image{
+    width:100%;
+}
+
+
+footer>p {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.main-nav {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-nav>ul {
+    list-style: none;
+    margin: auto;
+}
+
+.main-nav>ul>li {
+    display: inline-block;
+}
+
+.menu-toggle {
+    background: blue;
+    color: white;
+}
+
+.hidden-menu {
+    display: none;
+}
+
+img:after {
+    position: relative;
+    content: attr(title);
+}
+
+.main-image {
+    width: 100%;
+}
+.footer{
+    margin-top:10px;
+}
+.footer-content{
+    margin: auto;
+    padding:10px 0;
+    border-top: 2px solid #7d97ad;
+}

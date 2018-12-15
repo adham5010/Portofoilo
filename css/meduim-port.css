@@ -1,0 +1,42 @@
+/*strart menu*/
+.menu-toggle{
+    display: none;
+}
+.hidden-menu{
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+.hidden-menu>li{
+    margin: 5px;
+}
+/*end menu*/
+/*start article*/
+.article-container{
+    margin: 10px 10px ;
+    width:46%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.topic-header{
+    display: block;
+    font-size: 2.5vw;
+    width:100%;
+}
+.topic{
+    font-size: 2.0vw;
+}
+.features-container-wrapper{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+.features-container{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+.feature-container{
+    width:50%;
+}
+/*end article*/
